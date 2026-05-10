@@ -1,0 +1,16 @@
+# Core OCR engine. PaddleOCR 3.x defaults to PP-OCRv5, the most accurate general OCR pipeline in current PaddleOCR docs.
+paddleocr>=3.0.0
+paddlepaddle>=3.0.0
+
+# PDF rendering and image processing
+pypdfium2>=4.30.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+Pillow>=10.0.0
+
+# Spreadsheet export
+pandas>=2.2.0
+openpyxl>=3.1.0
+
+# Optional test runner
+pytest>=8.0.0
